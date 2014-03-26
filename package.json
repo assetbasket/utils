@@ -1,0 +1,11 @@
+{
+	"name": "monitor",
+	"version": "0.0.0",
+	"description": "Service for monitoring the sub-systems of AssetBasket",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Codey Whitt <codey.whitt@gmail.com>",
+	"license": "none"
+}
