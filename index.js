@@ -1,8 +1,11 @@
 /**
- * index.js - Module entry point.
+ * Utils Module
  *
- * This is where you should instantiate the return for your module.
+ * This module provides helper and utility functions and classes.
  */
-module.exports = (function () {
-	console.info('Please implement something...');
-})()
+
+module.exports = {
+	Exceptions: require('./lib/exceptions'),
+	Class: require('./lib/class'),
+	Helpers: require('./lib/helpers')
+};
